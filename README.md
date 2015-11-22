@@ -3,7 +3,8 @@ A storage service geared toward small files with ECDSA signature auth that works
 
 This project is for a server that will store and return data for a certain amount of time and accept updates if they are signed by a user's payment address.
 
-Design goals, none of the below is implemented yet.
+***
+**Design goals, none of the below is implemented yet.**
 
 * All storage expires after one year. Extended by uploading the same data. 
 * Data is kept if bandwidth is exceeded just no longer served until balance is increased.
